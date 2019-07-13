@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// state, this.setState = hold/access/change data of component
+// props = read only
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from "react";
+import KegList from "./KegList";
+import Header from './Header'
+import "./App.css";
+
+const App = () => (
+  <section>
+    <Header />
+    <KegList />
+  </section>
+);
 
 export default App;
+
+

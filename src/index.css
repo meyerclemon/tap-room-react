@@ -1,13 +1,57 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  border-style: outset;
+  padding: 5px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:rgb(73, 24, 24);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.keg {
+  background: #eeeeee;
+  width: 22rem;
+  margin-left: 20px;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+.keg:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.keg img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+h1 {
+  background-color: goldenrod;
+  text-align: center;
+  padding: 10px;
+  border-style: outset;
+}
+.keg h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.15rem;
+  color: teal;
+}
+
+@media screen and (min-width: 768px) {
+  .keg-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .keg-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
