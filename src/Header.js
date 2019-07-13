@@ -8,7 +8,7 @@ function Header() {
       <hr />
       <h1>Le Bartender - Keg List</h1>
 
-      <hr />
+  
     </div>
   )
 }

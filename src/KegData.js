@@ -67,7 +67,7 @@ const kegs = [
     },
     {
       id: 7,
-      img: "",
+      img: "https://logos.chinookbook.com/OrganizationImages/a0P8000000EFIw1EAH.png",
       brewery: 'Schilling',
       name: 'London Dry Cider',
       pint: '6.5',
@@ -77,7 +77,7 @@ const kegs = [
     },
     {
       id: 8,
-      img: "",
+      img: "http://www.brouwerscafe.com/wp-content/uploads/2017/05/finnriver_logo_color.jpeg",
       brewery: 'Finnriver',
       name: 'Oaken Haben Cider',
       pint: '10.50',
@@ -87,7 +87,7 @@ const kegs = [
     },
     {
       id: 9,
-      img: "",
+      img: "https://scontent-sea1-1.cdninstagram.com/vp/61d35120832cad013223d52bad2b621a/5DB741E7/t51.2885-19/s320x320/52153159_562728197563287_4691845548578177024_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com",
       brewery: 'Seattle Mead Company',
       name: 'Double Berry Tart Mead',
       pint: '9',
@@ -97,7 +97,7 @@ const kegs = [
     },
     {
       id: 10,
-      img: "",
+      img: "http://www.washingtonbeerblog.com/wp-content/uploads/2019/05/Mirage-beer-co-feat-2.jpg",
       brewery: 'Mirage/Chuck\'s',
       name: 'I Know Kung Fu Hazy IPA',
       pint: '7',
@@ -107,7 +107,7 @@ const kegs = [
     },
     {
       id: 11,
-      img: "",
+      img: "http://www.stoupbrewing.com/wp-content/uploads/2019/06/StoupBeerRunnersLogo.png",
       brewery: 'Stoup',
       name: 'Kristallweizen',
       pint: '5',
@@ -117,7 +117,7 @@ const kegs = [
     },
     {
       id: 12,
-      img: "",
+      img: "https://lh3.googleusercontent.com/6uOfPnOqryax7lgYreUjJEdSOVuSennjp5ZwsUaazMSvlK9XZna0QNbgjSapkLXQqcQIQLn9Z_yh8-MU-dKvlDOi2Y0ZNA=s150",
       brewery: 'Standard	',
       name: 'Last Beer on the Left IPA',
       pint: '5.5',
@@ -127,7 +127,7 @@ const kegs = [
     },
     {
       id: 13,
-      img: "",
+      img: "https://static1.squarespace.com/static/587e5604440243b3a687eb94/t/5acbdc79aa4a998f3f89d8b8/1523309713334/Dwinell+Seal+wtih+Stars+%5BRecovered%5D.png?format=750w",
       brewery: 'Dwinell Country Ales',
       name: 'Horsethief Farmhouse Pale',
       pint: '7',
@@ -137,7 +137,7 @@ const kegs = [
     },
     {
       id: 14,
-      img: "",
+      img: "https://upload.wikimedia.org/wikipedia/en/9/98/Fremont_Brewing_logo.png",
       brewery: 'Fremont',
       name: 'Brother IIPA	',
       pint: '8.50',
@@ -147,7 +147,7 @@ const kegs = [
     },
     {
       id: 15,
-      img: "",
+      img: "https://cdn2.shopify.com/s/files/1/1250/2903/t/2/assets/logo.png?14",
       brewery: 'Gigantic',
       name: 'Most Most Premium Stout',
       pint: '6.50',

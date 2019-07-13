@@ -9,7 +9,7 @@ button {
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:rgb(73, 24, 24);
+  background-color:rgb(176, 159, 189);
 }
 
 .keg {
@@ -18,7 +18,7 @@ body {
   margin-left: 20px;
   padding: 1rem;
   margin: 2rem auto;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   text-align: center;
   transition: all 0.3s linear;
 }
@@ -26,15 +26,24 @@ body {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.keg img {
-  border-radius: 50%;
-  border: 0.1rem solid teal;
+/* .keg img {
+  border-radius: 10%;
+  border-right: 0.1rem solid teal;
+} */
+
+.description {
+  border-radius: 5%;
+  background-color: white;
+  padding: 4px;
+  border-left: solid 1px black;
 }
+
 h1 {
-  background-color: goldenrod;
+  background-color: rgb(51, 6, 51);
   text-align: center;
   padding: 10px;
   border-style: outset;
+  color: rgb(241, 175, 6); 
 }
 .keg h4 {
   text-transform: capitalize;
