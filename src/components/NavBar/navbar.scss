@@ -1,0 +1,28 @@
+.navbar {
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.nav-links {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.nav-link {
+  color: lightgrey;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s linear;
+  &:hover {
+    color: lightGreen;
+  }
+}
+
+.active {
+  color: lightgreen;
+}

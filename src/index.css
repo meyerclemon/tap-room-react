@@ -9,7 +9,7 @@ button {
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:rgb(176, 159, 189);
+  background-color: lightyellow;
 }
 
 .keg {
@@ -39,11 +39,8 @@ body {
 }
 
 h1 {
-  background-color: rgb(51, 6, 51);
-  text-align: center;
-  padding: 10px;
-  border-style: outset;
-  color: rgb(241, 175, 6); 
+color: rgb(241, 175, 6); 
+font-family: cursive
 }
 .keg h4 {
   text-transform: capitalize;

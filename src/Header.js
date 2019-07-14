@@ -1,16 +1,16 @@
-import React from 'react'
-import tapsRow from './tapsRow.jpg'
+// import React from 'react'
+// import tapsRow from './tapsRow.jpg'
 
-function Header() {
-  return (
-    <div>
-      <img src={tapsRow} alt="row of taps"/>
-      <hr />
-      <h1>Le Bartender - Keg List</h1>
+// function Header() {
+//   return (
+//     <div>
+//       <img src={tapsRow} alt="row of taps"/>
+//       <hr />
+//       <h1>Le Bartender - Keg List</h1>
 
   
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Header
+// export default Header

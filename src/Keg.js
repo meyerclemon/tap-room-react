@@ -33,7 +33,7 @@ export default class Keg extends Component {
           <h5><hr/>abv: {abv}<hr/></h5>
           <h4>Pint: ${pint}</h4>
           
-          <h5><button type="button" onClick={this.addCount}>+</button><button type="button" onClick={this.lowerCount}>-</button> Sold : {this.state.count}</h5>
+          <h5><button type="button" onClick={this.addCount}>+</button><button type="button" onClick={this.lowerCount}>-</button> Sold : {this.state.count}/124</h5>
           </section>
         </div>
       </article>
