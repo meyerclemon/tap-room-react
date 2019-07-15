@@ -1,9 +1,10 @@
 .navbar {
   align-items: center;
   background-color: black;
-  padding: 0.5rem 1rem;
+//   padding: 0.5rem 1rem;
   display: grid;
   grid-template-columns: auto 1fr;
+
 }
 
 .nav-links {
@@ -13,7 +14,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .nav-link {
-  color: lightgrey;
+  color: goldenrod;
   text-transform: capitalize;
   text-decoration: none;
   font-size: 1.2rem;
@@ -25,4 +26,12 @@
 
 .active {
   color: lightgreen;
+}
+
+h1 {
+color: rgb(241, 175, 6); 
+font-family: cursive;
+padding: .5rem;
+padding-right: 1rem;
+border-style: double; 
 }

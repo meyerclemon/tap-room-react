@@ -7,7 +7,7 @@ export default function NavBar() {
       <img src={tapsRow} alt="row of taps" />
 
       <nav className="navbar">
-        <h1>Le Bartender</h1>
+        <h1>Le Bartender Tap House</h1>
 
         <ul className="nav-links">
           <li>
@@ -21,12 +21,13 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a href="/" className="nav-link active">
+            <a href="/" className="nav-link">
               new keg
             </a>
           </li>
         </ul>
       </nav>
+      <hr/>
     </div>
   );
 }

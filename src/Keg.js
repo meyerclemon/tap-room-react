@@ -4,7 +4,7 @@ export default class Keg extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 0,
+      count: 0
     };
   }
 
@@ -25,15 +25,28 @@ export default class Keg extends Component {
         <img src={img} width="150" alt="keg" />
         <div>
           <section className="description">
-            
-          <h3>{brewery}</h3><hr/><h5>({origin}) <hr/></h5>
-          
-          <h4>{name}</h4>
-          
-          <h5><hr/>abv: {abv}<hr/></h5>
-          <h4>Pint: ${pint}</h4>
-          
-          <h5><button type="button" onClick={this.addCount}>+</button><button type="button" onClick={this.lowerCount}>-</button> Sold : {this.state.count}/124</h5>
+            <h3>
+              {brewery} ({origin})
+            </h3>
+
+            <h4>{name}</h4>
+
+            <h5>
+              <hr />
+              abv: {abv}
+              <hr />
+            </h5>
+            <h4>Pint: ${pint}</h4>
+
+            <h5>
+              <button type="button" onClick={this.addCount}>
+                +
+              </button>
+              <button type="button" onClick={this.lowerCount}>
+                -
+              </button>{" "}
+              Sold : {this.state.count}/124
+            </h5>
           </section>
         </div>
       </article>

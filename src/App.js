@@ -8,17 +8,10 @@ import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
 
 const App = () => (
-  <section>
-    <React.Fragment>
-      <NavBar />
-    </React.Fragment>
-    {/* <Header /> */}
+  <React.Fragment>
+    <NavBar />
     <KegList />
-  </section>
+  </React.Fragment>
 );
 
-
-
 export default App;
-
-

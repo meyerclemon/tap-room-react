@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0.2rem;
   padding: 0;
   box-sizing: border-box;
 }
@@ -9,44 +9,39 @@ button {
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: lightyellow;
+  background-color: black;
+  margin-left: .5rem;
 }
 
 .keg {
-  background: #eeeeee;
-  width: 22rem;
-  margin-left: 20px;
-  padding: 1rem;
-  margin: 2rem auto;
-  border-radius: 1rem;
+  background: whitesmoke;
+  border: solid 1px goldenrod;
+  width: 32rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   text-align: center;
   transition: all 0.3s linear;
 }
+
 .keg:hover {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* .keg img {
-  border-radius: 10%;
-  border-right: 0.1rem solid teal;
-} */
+.img {
+  padding: .5rem;
+}
 
 .description {
-  border-radius: 5%;
-  background-color: white;
-  padding: 4px;
-  border-left: solid 1px black;
+  padding: 1rem 0.5rem;
+  border-style: double;
+  border-color: goldenrod;
 }
 
-h1 {
-color: rgb(241, 175, 6); 
-font-family: cursive
-}
 .keg h4 {
   text-transform: capitalize;
   margin: 0.5rem 0;
   letter-spacing: 0.15rem;
-  color: teal;
+  color: rgb(21, 121, 121);
 }
 
 @media screen and (min-width: 768px) {
@@ -58,6 +53,6 @@ font-family: cursive
 }
 @media screen and (min-width: 992px) {
   .keg-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
