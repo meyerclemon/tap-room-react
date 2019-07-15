@@ -4,6 +4,7 @@ import tapsRow from "../../tapsRow.jpg";
 export default function NavBar() {
   return (
     <div>
+
       <img src={tapsRow} alt="row of taps" />
 
       <nav className="navbar">

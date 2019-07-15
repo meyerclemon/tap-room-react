@@ -14,6 +14,7 @@ body {
 }
 
 .keg {
+  color: rgb(51, 2, 51);
   background: whitesmoke;
   border: solid 1px goldenrod;
   width: 32rem;
