@@ -31,8 +31,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### Open Locally
 1. Navigate to the application directory: `$ cd TapRoom`
-2. Run the command: `$ npm run start`
-3. Navigate to localhost:8080 to see application
+2. `$ npm run start`: runs app in development mode
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
 
 ## Built With
 * Visual Studio Code (Text Editor)
@@ -46,18 +48,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Contact
 
-[Maya Frame](mailto:mayacframe@gmail.com)
+Maya Frame(mayacframe@gmail.com)
 If you have any feedback or concerns, please contact any of the contributors.
 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Maya Frame. All Rights Reserved.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
