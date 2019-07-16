@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * As an employee, you are able to click a button next to a keg whenever you sell a pint of it. This should decrease the number of pints left by 1.
 
 ## Diagram
-![Component diagram](/src/assets/images/TapRoomDiagram.png)
+![Component diagram](/TapRoomDiagram2.png)
 
 ## Setup and Use
 
