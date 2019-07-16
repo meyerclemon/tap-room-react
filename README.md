@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * As an employee, you are able to click a button next to a keg whenever you sell a pint of it. This should decrease the number of pints left by 1.
 
 ## Diagram
-![Component diagram](/TapRoomDiagram2.png)
+![Component diagram](TapRoomDiagram2.PNG)
 
 ## Setup and Use
 
@@ -19,19 +19,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### Download Repo
 1. Download and install required software: Node.js, npm
-2. Clone [this repository]: `$ git clone https://github.com/meyerclemon/TapRoom`
+2. Clone [this repository]: `$ git clone https://github.com/meyerclemon/tap-room-react
+`
 
 #### Prepare
-1. Navigate to the application directory: `$ cd TapRoom`
+1. Navigate to the application directory: `$ cd tap-room-react
+`
 2. Execute the command `$ npm install`
 
 ### View Code
-1. Navigate to the application directory: `$ cd TapRoom`
-2. Use preferred text editor or IDE to see all code used.
+Use preferred text editor or IDE to see all code used.
 
 #### Open Locally
-1. Navigate to the application directory: `$ cd TapRoom`
-2. `$ npm run start`: runs app in development mode
+1. Navigate to the application directory: `$ cd tap-room-react
+`
+2. `$ npm start`: runs app in development mode
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
